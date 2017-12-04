@@ -1,0 +1,119 @@
+{
+	"components": [
+		{
+			"type": "Page",
+			"id": "fa2f-254a-fb58-0e02",
+			"initialized": true,
+			"userProps": {
+				"paddingLeft": 15,
+				"paddingRight": 15,
+				"paddingTop": 15,
+				"paddingBottom": 75
+			},
+			"className": ".page",
+			"version": "6.5.3-rc.16",
+			"props": {
+				"name": "lyric",
+				"children": [
+					"204c-bfe1-1085-a411",
+					"65ea-6d5f-bab4-393e",
+					"8690-bbaa-0493-b14f",
+					"409e-5b32-0dd5-78a0"
+				],
+				"parent": null,
+				"orientation": "PORTRAIT"
+			}
+		},
+		{
+			"type": "StatusBar",
+			"id": "204c-bfe1-1085-a411",
+			"hiddenComponent": true,
+			"userProps": {
+				"visible": false
+			},
+			"className": ".statusBar",
+			"props": {
+				"name": "statusBar",
+				"children": [],
+				"parent": "fa2f-254a-fb58-0e02",
+				"isRemovable": false
+			}
+		},
+		{
+			"type": "HeaderBar",
+			"id": "65ea-6d5f-bab4-393e",
+			"hiddenComponent": true,
+			"userProps": {
+				"title": "newPage001",
+				"visible": false
+			},
+			"className": ".headerBar",
+			"props": {
+				"name": "headerBar",
+				"title": "newPage001",
+				"children": [],
+				"parent": "fa2f-254a-fb58-0e02",
+				"isRemovable": false
+			}
+		},
+		{
+			"type": "Label",
+			"id": "8690-bbaa-0493-b14f",
+			"userProps": {
+				"width": null,
+				"height": null,
+				"text": "Lyrics loading...",
+				"textAlignment": "MIDLEFT",
+				"multiline": true,
+				"usePageVariable": true,
+				"backgroundColor": "rgba( 255, 255, 255, 0.05 )",
+				"flexProps": {
+					"flexGrow": 1
+				},
+				"font": {
+					"size": 19,
+					"family": "Default",
+					"bold": false,
+					"italic": true
+				}
+			},
+			"className": ".label",
+			"props": {
+				"name": "lyricLabel",
+				"text": "Lyrics loading...",
+				"usePageVariable": true,
+				"children": [],
+				"parent": "fa2f-254a-fb58-0e02"
+			}
+		},
+		{
+			"type": "Button",
+			"id": "409e-5b32-0dd5-78a0",
+			"userProps": {
+				"usePageVariable": true,
+				"text": "<",
+				"width": 75,
+				"height": 75,
+				"borderRadius": 50,
+				"bottom": 10,
+				"backgroundColor": "rgba( 89, 108, 20, 1 )",
+				"right": 10,
+				"flexProps": {
+					"positionType": "ABSOLUTE",
+					"flexGrow": 1
+				},
+				"font": {
+					"size": 33
+				}
+			},
+			"className": ".button",
+			"props": {
+				"name": "backButton",
+				"text": "<",
+				"usePageVariable": true,
+				"children": [],
+				"parent": "fa2f-254a-fb58-0e02"
+			}
+		}
+	]
+}

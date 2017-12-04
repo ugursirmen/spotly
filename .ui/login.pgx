@@ -1,0 +1,309 @@
+{
+	"components": [
+		{
+			"type": "Page",
+			"id": "1198-b1c8-8eb0-1270",
+			"initialized": true,
+			"userProps": {
+				"backgroundColor": "rgba( 238, 238, 238, 1 )",
+				"paddingLeft": 20,
+				"paddingRight": 20,
+				"paddingBottom": null,
+				"flexProps": {
+					"justifyContent": "SPACE_AROUND",
+					"alignContent": "STRETCH",
+					"alignItems": "STRETCH"
+				},
+				"layout": {},
+				"flex": {},
+				"font": {},
+				"defaults": {}
+			},
+			"className": ".page",
+			"version": "6.4.5-rc.1",
+			"props": {
+				"name": "login",
+				"children": [
+					"81c9-f452-10f2-bad7",
+					"0b12-2ed4-b884-dbbf",
+					"6b1b-0b41-d5de-e82f",
+					"411c-4244-cbf8-b72b",
+					"71b5-c072-c4a6-586a",
+					"ab5d-abcc-68ea-4d98"
+				],
+				"parent": null,
+				"orientation": "PORTRAIT"
+			}
+		},
+		{
+			"type": "StatusBar",
+			"id": "81c9-f452-10f2-bad7",
+			"userProps": {
+				"layout": {},
+				"flex": {},
+				"font": {},
+				"flexProps": {},
+				"defaults": {},
+				"color": "rgba( 89, 108, 20, 1 )"
+			},
+			"className": ".statusBar",
+			"props": {
+				"name": "statusBar",
+				"children": [],
+				"parent": "1198-b1c8-8eb0-1270",
+				"isRemovable": false
+			}
+		},
+		{
+			"type": "HeaderBar",
+			"id": "0b12-2ed4-b884-dbbf",
+			"userProps": {
+				"title": "Login",
+				"visible": false,
+				"layout": {},
+				"flex": {},
+				"font": {},
+				"flexProps": {},
+				"defaults": {}
+			},
+			"className": ".headerBar",
+			"props": {
+				"name": "headerBar",
+				"title": "Login",
+				"children": [],
+				"parent": "1198-b1c8-8eb0-1270",
+				"isRemovable": false
+			}
+		},
+		{
+			"type": "FlexLayout",
+			"id": "6b1b-0b41-d5de-e82f",
+			"userProps": {
+				"width": null,
+				"height": 250,
+				"right": null,
+				"backgroundColor": "rgba( 255, 255, 255, 0 )",
+				"maxHeight": null,
+				"flexProps": {
+					"alignItems": "CENTER",
+					"justifyContent": "CENTER",
+					"flexGrow": 3.5,
+					"alignSelf": "AUTO",
+					"flexWrap": "NOWRAP",
+					"alignContent": "STRETCH"
+				}
+			},
+			"className": ".flexLayout",
+			"props": {
+				"name": "loginPageHeader",
+				"children": [
+					"8aa4-c85e-82f8-eec5",
+					"5f23-4e2a-83a3-1e7c"
+				],
+				"parent": "1198-b1c8-8eb0-1270"
+			}
+		},
+		{
+			"type": "Label",
+			"id": "5f23-4e2a-83a3-1e7c",
+			"userProps": {
+				"backgroundColor": "rgba( 255, 255, 255, 0 )",
+				"textAlignment": "MIDCENTER",
+				"textColor": "rgba( 47, 47, 56, 1 )",
+				"text": "Spotly",
+				"width": null,
+				"height": 70,
+				"layout": {},
+				"flex": {},
+				"defaults": {},
+				"font": {
+					"size": 50,
+					"family": "Nunito"
+				},
+				"flexProps": {
+					"alignSelf": "STRETCH"
+				}
+			},
+			"className": ".label",
+			"props": {
+				"name": "headerIcon",
+				"text": "Spotly",
+				"children": [],
+				"parent": "6b1b-0b41-d5de-e82f"
+			}
+		},
+		{
+			"type": "ImageView",
+			"id": "8aa4-c85e-82f8-eec5",
+			"userProps": {
+				"width": 164.91207323576273,
+				"height": 150.63360113846628,
+				"image": "logo.png",
+				"imageFillType": "ASPECTFIT",
+				"alpha": 1,
+				"flexProps": {
+					"alignSelf": "AUTO",
+					"positionType": "RELATIVE"
+				}
+			},
+			"className": ".imageView",
+			"props": {
+				"name": "headerText",
+				"children": [],
+				"parent": "6b1b-0b41-d5de-e82f"
+			}
+		},
+		{
+			"type": "Button",
+			"id": "71b5-c072-c4a6-586a",
+			"userProps": {
+				"backgroundColor": "rgba( 89, 108, 20, 1 )",
+				"width": null,
+				"text": "Search",
+				"maxHeight": null,
+				"borderRadius": 50,
+				"usePageVariable": true,
+				"flexProps": {
+					"flexGrow": 0.8
+				},
+				"font": {
+					"family": "Nunito",
+					"bold": true,
+					"italic": false,
+					"size": 24
+				}
+			},
+			"className": ".button",
+			"props": {
+				"name": "loginButton",
+				"text": "Search",
+				"usePageVariable": true,
+				"children": [],
+				"parent": "1198-b1c8-8eb0-1270"
+			}
+		},
+		{
+			"type": "FlexLayout",
+			"id": "ab5d-abcc-68ea-4d98",
+			"userProps": {
+				"backgroundColor": "rgba( 255, 255, 255, 0 )",
+				"width": null,
+				"height": 101.91134643554688,
+				"maxHeight": null,
+				"flexProps": {
+					"flexDirection": "ROW",
+					"alignItems": "FLEX_START",
+					"justifyContent": "CENTER",
+					"flexGrow": 2
+				}
+			},
+			"className": ".flexLayout",
+			"props": {
+				"name": "loginPageFooter",
+				"children": [],
+				"parent": "1198-b1c8-8eb0-1270"
+			}
+		},
+		{
+			"type": "FlexLayout",
+			"id": "411c-4244-cbf8-b72b",
+			"userProps": {
+				"backgroundColor": "rgba( 255, 255, 255, 0 )",
+				"width": null,
+				"height": 45,
+				"maxHeight": null,
+				"usePageVariable": false,
+				"flexProps": {
+					"flexGrow": 1
+				}
+			},
+			"className": ".flexLayout",
+			"props": {
+				"name": "searchLayout",
+				"usePageVariable": false,
+				"children": [
+					"f19c-96b3-a541-0a09",
+					"5b09-5bee-bc7d-beb7",
+					"ea5b-89de-cd3c-6c47"
+				],
+				"parent": "1198-b1c8-8eb0-1270"
+			}
+		},
+		{
+			"type": "Label",
+			"id": "f19c-96b3-a541-0a09",
+			"userProps": {
+				"height": 21,
+				"width": null,
+				"backgroundColor": "rgba( 255, 255, 255, 0 )",
+				"textAlignment": "MIDLEFT",
+				"textColor": "rgba( 160, 160, 160, 1 )",
+				"text": "SEARCH LYRICS",
+				"font": {
+					"size": 16,
+					"family": "Nunito",
+					"bold": false,
+					"italic": false
+				}
+			},
+			"className": ".label",
+			"props": {
+				"name": "searchLabel",
+				"text": "SEARCH LYRICS",
+				"children": [],
+				"parent": "411c-4244-cbf8-b72b"
+			}
+		},
+		{
+			"type": "TextBox",
+			"id": "5b09-5bee-bc7d-beb7",
+			"hiddenComponent": false,
+			"userProps": {
+				"width": null,
+				"height": 45,
+				"backgroundColor": "rgba( 255, 255, 255, 0 )",
+				"borderColor": "rgba( 197, 197, 197, 1 )",
+				"textColor": "rgba( 63, 63, 63, 1 )",
+				"alpha": 0.76,
+				"hint": "artist:track",
+				"usePageVariable": true,
+				"font": {
+					"family": "Nunito",
+					"italic": true,
+					"size": 19
+				}
+			},
+			"className": ".textBox",
+			"props": {
+				"name": "searchTextBox",
+				"text": null,
+				"hint": "artist:track",
+				"usePageVariable": true,
+				"children": [],
+				"parent": "411c-4244-cbf8-b72b"
+			}
+		},
+		{
+			"type": "FlexLayout",
+			"id": "ea5b-89de-cd3c-6c47",
+			"userProps": {
+				"borderWidth": 0,
+				"backgroundColor": "rgba( 226, 226, 226, 1 )",
+				"height": 1,
+				"width": null,
+				"borderColor": "rgba( 226, 226, 226, 1 )",
+				"layout": {},
+				"flex": {},
+				"font": {},
+				"flexProps": {},
+				"defaults": {}
+			},
+			"className": ".flexLayout",
+			"props": {
+				"name": "searchLine",
+				"children": [],
+				"parent": "411c-4244-cbf8-b72b"
+			}
+		}
+	]
+}
